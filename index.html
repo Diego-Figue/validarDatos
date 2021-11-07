@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <script src="jquery-validation/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <form class="form" id="formularioLogin">
+
+        <legend>LOGIN</legend>
+        
+        <div class="contenedor">
+            <div class="form-group">
+                <input type="email" class="input" name="nEmail" id="email" placeholder=" ">
+                <label class="labels" for="email">Email:</label>
+                <span id="linea" class="line"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="password" class="input" name="nContraseña" id="contraseña" placeholder=" ">
+                <label  class="labels" for="contraseña">Contraseña:</label>
+                <span id="linea" class="line"></span>
+            </div>
+
+            <div class="form-group checkbox">
+                <label>
+                    <input type="checkbox" name="terminos" id="check1" value="">
+                    Aceptar los terminos del servicio
+                </label>
+            </div>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">😀INGRESAR😀</button>
+    </form>
+
+</body>
